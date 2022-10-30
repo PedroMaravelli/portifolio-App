@@ -1,0 +1,43 @@
+.containerDivSobre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 20px;
+    width: 80%;
+    height: 80vh;
+}
+.containerDivSobre .divProfile{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.containerDivSobre .divProfile img{ 
+    width: 300px;
+    
+    margin-left: 5%;
+
+}
+.containerDivSobre .divProfile .textDescriptionSobre{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: rgb(252, 252, 252);
+    width: 60%;
+    margin-left: 5%;
+    
+    
+}
+.containerDivSobre .divProfile .textDescriptionSobre h2{
+    font-size: 3em;
+    text-align: center;
+}
+.containerDivSobre .divProfile .textDescriptionSobre .textForMe{
+    font-size: 1.2em;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 10%;
+}

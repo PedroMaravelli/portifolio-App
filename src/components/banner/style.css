@@ -1,0 +1,67 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.containerBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+}
+.containerBanner .textName{
+    margin-top: 10%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.textName h2{
+    font-size: 3em;
+    font-weight: 100;
+}
+.textName h1{
+    font-size: 3.5em;
+    color: rgb(66, 238, 238);
+    font-weight: 600;
+}
+.containerBanner .socialMedia{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.containerBanner .socialMedia .linkedinLink{
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    border: 2px solid rgb(7, 115, 238);
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: rgb(63, 63, 63);
+    cursor: pointer;
+}
+.containerBanner .socialMedia .gitHubLink{
+    display: inline-block;
+    
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    border: 2px solid rgb(168, 3, 245);
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: rgb(63, 63, 63);
+    cursor: pointer;
+}
+.containerBanner .socialMedia  a{
+    text-decoration: none;
+    background-color:rgb(63, 63, 63);
+    color:white;
+    font-weight: 500;
+}
+
+
+
+
